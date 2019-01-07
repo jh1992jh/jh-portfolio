@@ -14,8 +14,6 @@ import reactlandingpageMobile2 from './images/reactlandingpage-mobile2.webp';
 import NavIcon from './icons';
 import battery from './icons/battery-info.png'
 
-import mainlogo from './logo.png';
-
 export const images = {
     socialfeedDesktop,
     socialfeedMobile1,
