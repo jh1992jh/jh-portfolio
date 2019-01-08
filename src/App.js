@@ -5,6 +5,8 @@ import MobileNav from './components/navs/MobileNav';
 import InfoTabs from './components/infoTabs/InfoTabs';
 import Loading from './components/loading/Loading';
 
+// import JSFacts from './JSFacts';
+
 const AppStyled = styled.div`
   height: 100vh;
   display: flex;
@@ -30,7 +32,11 @@ class App extends Component {
 }
 
 componentDidMount() {
-  setTimeout(() => this.setState({loading: false}),1100)
+  this.timeout = setTimeout(() => this.setState({loading: false}),1100)
+}
+
+componentWillUnmount() {
+  clearTimeout(this.timeout)
 }
 toggleNav = () => {
     const { navOpen } = this.state;
@@ -59,26 +65,5 @@ toggleNav = () => {
     );
   }
 }
-
-/* 
-<Transition 
-        native
-        items={navOpen}
-        config={config.fast}
-        from={{opacity: 0}}
-        enter={{opacity: 1}}
-        leave={{opacity: 0}}
-      >
-      {navOpen => 
-        !navOpen && (props =>
-            <animated.div style={props}>
-              <InfoTabs />
-            </animated.div>
-          )
-      } 
-      
-      </Transition> 
-
-*/
 
 export default App;

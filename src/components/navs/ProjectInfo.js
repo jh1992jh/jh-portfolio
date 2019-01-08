@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import styled from 'styled-components';
 import ProjectTitle from './ProjectTitle';
 import SingleProjectInfo from './SingleProjectInfo';
-import { Transition, animated, config } from 'react-spring';
+import { Transition, animated } from 'react-spring';
 import Github from '../../images-and-icons/Github';
 
 const ProjectInfoStyled = styled.div`

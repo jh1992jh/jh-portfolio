@@ -33,5 +33,3 @@ export const icons = {
     NavIcon,
     battery
 }
-
-export const logo = mainlogo;

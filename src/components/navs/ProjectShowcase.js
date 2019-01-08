@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import styled from 'styled-components';
-import { Spring, config } from 'react-spring';
+import { Spring } from 'react-spring';
 
 const ProjectShowcaseStyled = styled.div`
     max-height: 100%;
