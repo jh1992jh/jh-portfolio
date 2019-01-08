@@ -2,7 +2,7 @@
   "name": "portfolio-3rd",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://jh1992jh.github.io/jh-dev/",
+  "homepage": "https://jh1992jh.github.io/jh-portfolio/",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "react": "^16.7.0",
