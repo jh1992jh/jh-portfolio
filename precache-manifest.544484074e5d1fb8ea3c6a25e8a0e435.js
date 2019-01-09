@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/filtermatic-mobile1.929de7c4.webp"
   },
   {
-    "revision": "5d215486d21708a0235c",
+    "revision": "c6320102759402e3863e",
     "url": "/jh-portfolio/static/css/main.cacc1a04.chunk.css"
   },
   {
@@ -32,8 +32,8 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/filtermatic-desktop.b3b26b43.webp"
   },
   {
-    "revision": "5d215486d21708a0235c",
-    "url": "/jh-portfolio/static/js/main.5d215486.chunk.js"
+    "revision": "c6320102759402e3863e",
+    "url": "/jh-portfolio/static/js/main.c6320102.chunk.js"
   },
   {
     "revision": "3921ee290c82302f3065114189636e4f",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/reactlandingpage-mobile2.3b789164.webp"
   },
   {
-    "revision": "7dd2496b4f20eba301091cb751c31111",
+    "revision": "de4b8c0b1ea246e7414b83c63afbb77c",
     "url": "/jh-portfolio/index.html"
   }
 ];
