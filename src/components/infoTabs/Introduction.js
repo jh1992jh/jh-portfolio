@@ -46,6 +46,10 @@ const Padding = styled.div`
         padding: 0 0.6em;
     }
 `
+
+const CTA = styled.h4`
+    color: #888;
+`
 const Introduction = () => (
     <IntroductionStyled>
         <Padding>
@@ -56,6 +60,10 @@ const Introduction = () => (
             <h3>Skills</h3>
             <p>ReactJS, Redux, NodeJS, JavaScript, Express, MongoDB, Styled-Components, CSS, HTML</p>
         </Skills>
+
+        <CTA>
+            Click the Nav on the left to see some of my work
+        </CTA>
         </Padding>
     </IntroductionStyled>
 )

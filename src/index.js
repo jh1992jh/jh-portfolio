@@ -5,10 +5,15 @@ import App from './App';
 import * as serviceWorker from './serviceWorker';
 import { createGlobalStyle } from 'styled-components'; 
 
+// font-family: 'Nunito', sans-serif;
+// font-family: 'Exo', sans-serif;
+// font-family: 'Questrial', sans-serif;
+// font-family: 'Jura', sans-serif;
+
 const GlobalStyles = createGlobalStyle`
  body * {
-    font-family: 'Nunito', sans-serif;
     color: #222;
+    font-family: 'Jura', sans-serif;
  }
 
  a {
