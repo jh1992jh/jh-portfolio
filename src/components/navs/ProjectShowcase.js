@@ -66,9 +66,9 @@ const ProjectShowcase = ({selectedProject, resetAnim}) => (
             >
                 {props => (
                     <Fragment>
-                        <DesktopImg style={props} src={selectedProject.desktop} alt="Project on desktop" />
-                        <MobileImg style={props} src={selectedProject.mobile1} alt="Project on mobile" />
-                        <MobileImg style={props} src={selectedProject.mobile2} alt="Project on mobile" />
+                        <DesktopImg style={props} src={selectedProject.desktop} srcSet={selectedProject.desktopFP} alt="Project on desktop" />
+                        <MobileImg style={props} src={selectedProject.mobile1} srcSet={selectedProject.mobile1FP} alt="Project on mobile" />
+                        <MobileImg style={props} src={selectedProject.mobile2} srcSet={selectedProject.mobile2FP} alt="Project on mobile" />
                     </Fragment>
                 )}
             </Spring>

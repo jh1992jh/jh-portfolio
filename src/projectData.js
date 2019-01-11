@@ -8,6 +8,9 @@ export const projectData = [
         desktop: images.socialfeedDesktop,
         mobile1: images.socialfeedMobile1,
         mobile2: images.socialfeedMobile2,
+        desktopFP: images.socialfeedDesktopFP,
+        mobile1FP: images.socialfeedMobile1FP,
+        mobile2FP: images.socialfeedMobile2FP,
         url: 'https://tranquil-taiga-96610.herokuapp.com/',
         githubRepo: 'https://github.com/jh1992jh/social-feed-ui'
     },
@@ -18,6 +21,9 @@ export const projectData = [
         desktop: images.pieceofcakeDesktop,
         mobile1: images.pieceofcakeMobile1,
         mobile2: images.pieceofcakeMobile2,
+        desktopFP: images.pieceofcakeDesktopFP,
+        mobile1FP: images.pieceofcakeMobile1FP,
+        mobile2FP: images.pieceofcakeMobile2FP,
         url: 'https://recipe-graph.herokuapp.com/',
         githubRepo: 'https://github.com/jh1992jh/recipe-graph'
     },
@@ -28,6 +34,9 @@ export const projectData = [
         desktop: images.filtermaticDesktop,
         mobile1: images.filtermaticMobile1,
         mobile2: images.filtermaticMobile2,
+        desktopFP: images.filtermaticDesktopFP,
+        mobile1FP: images.filtermaticMobile1FP,
+        mobile2FP: images.filtermaticMobile2FP,
         url: 'https://jh1992jh.github.io/filtermatic/',
         githubRepo: 'https://github.com/jh1992jh/filtermatic'
     },
@@ -38,6 +47,9 @@ export const projectData = [
         desktop: images.reactlandingpageDesktop,
         mobile1: images.reactlandingpageMobile1,
         mobile2: images.reactlandingpageMobile2,
+        desktopFP: images.reactlandingpageDesktopFP,
+        mobile1FP: images.reactlandingpageMobile1FP,
+        mobile2FP: images.reactlandingpageMobile2FP,
         url: 'https://jh1992jh.github.io/react-landing-page/',
         githubRepo: 'https://github.com/jh1992jh/react-landing-page'
     }

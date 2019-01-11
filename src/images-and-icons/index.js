@@ -11,6 +11,20 @@ import reactlandingpageDesktop from './images/reactlandinpage-desktop.webp';
 import reactlandingpageMobile1 from './images/reactlandingpage-mobile1.webp';
 import reactlandingpageMobile2 from './images/reactlandingpage-mobile2.webp';
 
+// Fallbacks
+import socialfeedDesktopFP from'./images/socialfeed-desktop-fp.png';
+import socialfeedMobile1FP from './images/socialfeed-mobile1-fp.png';
+import socialfeedMobile2FP from './images/socialfeed-mobile2-fp.png';
+import pieceofcakeDesktopFP from './images/pieceofcake-desktop-fp.png';
+import pieceofcakeMobile1FP from './images/pieceofcake-mobile1-fp.png';
+import pieceofcakeMobile2FP from './images/pieceofcake-mobile2-fp.png';
+import filtermaticDesktopFP from './images/filtermatic-desktop-fp.png';
+import filtermaticMobile1FP from './images/filtermatic-mobile1-fp.png';
+import filtermaticMobile2FP from './images/filtermatic-mobile2-fp.png';
+import reactlandingpageDesktopFP from './images/reactlandingpage-desktop-fp.png';
+import reactlandingpageMobile1FP from './images/reactlandingpage-mobile1-fp.png';
+import reactlandingpageMobile2FP from './images/reactlandingpage-mobile2-fp.png';
+
 import NavIcon from './icons';
 import battery from './icons/battery-info.png'
 
@@ -26,7 +40,20 @@ export const images = {
     pieceofcakeMobile2,
     reactlandingpageDesktop,
     reactlandingpageMobile1,
-    reactlandingpageMobile2
+    reactlandingpageMobile2,
+    // Fallbacks
+    socialfeedDesktopFP,
+    socialfeedMobile1FP,
+    socialfeedMobile2FP,
+    pieceofcakeDesktopFP,
+    pieceofcakeMobile1FP,
+    pieceofcakeMobile2FP,
+    filtermaticDesktopFP,
+    filtermaticMobile1FP,
+    filtermaticMobile2FP,
+    reactlandingpageDesktopFP,
+    reactlandingpageMobile1FP,
+    reactlandingpageMobile2FP
 }
 
 export const icons = {
