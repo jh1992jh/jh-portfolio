@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "ff5838d2f1d1f8e48d80a6ec1d3f18d4",
-    "url": "/jh-portfolio/static/media/reactlandingpage-mobile1.ff5838d2.webp"
+    "revision": "3b789164580d26b673faef11f0da8ace",
+    "url": "/jh-portfolio/static/media/reactlandingpage-mobile2.3b789164.webp"
   },
   {
-    "revision": "1bd93a130b7563cbaf6e",
-    "url": "/jh-portfolio/static/css/main.ea3aa34c.chunk.css"
+    "revision": "4f63c8bb8d825216de93",
+    "url": "/jh-portfolio/static/css/main.b8b35183.chunk.css"
   },
   {
-    "revision": "1a0d40abb3bf69e96fd0",
-    "url": "/jh-portfolio/static/js/1.1a0d40ab.chunk.js"
+    "revision": "ac43688d0ffe13a45d93",
+    "url": "/jh-portfolio/static/js/1.ac43688d.chunk.js"
   },
   {
     "revision": "306e0b3fe919bce7a77a",
@@ -56,12 +56,20 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/reactlandinpage-desktop.7ce6bf6e.webp"
   },
   {
-    "revision": "1bd93a130b7563cbaf6e",
-    "url": "/jh-portfolio/static/js/main.1bd93a13.chunk.js"
+    "revision": "ff5838d2f1d1f8e48d80a6ec1d3f18d4",
+    "url": "/jh-portfolio/static/media/reactlandingpage-mobile1.ff5838d2.webp"
   },
   {
-    "revision": "3b789164580d26b673faef11f0da8ace",
-    "url": "/jh-portfolio/static/media/reactlandingpage-mobile2.3b789164.webp"
+    "revision": "4f63c8bb8d825216de93",
+    "url": "/jh-portfolio/static/js/main.4f63c8bb.chunk.js"
+  },
+  {
+    "revision": "07a21e7481ff38894195c174b1c877b8",
+    "url": "/jh-portfolio/static/media/wq-mobile1.07a21e74.png"
+  },
+  {
+    "revision": "13ad8217f6b2d75584254e0e65ea2b1f",
+    "url": "/jh-portfolio/static/media/wq-mobile2.13ad8217.png"
   },
   {
     "revision": "900bf3792b10d641328dd4b6b1ce5637",
@@ -112,7 +120,7 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/reactlandingpage-mobile2-fp.98d7bbad.png"
   },
   {
-    "revision": "e29460accb7754e3bcc96f9b575c4029",
+    "revision": "50a6c7ccb6a254046a470721921005f2",
     "url": "/jh-portfolio/index.html"
   }
 ];
