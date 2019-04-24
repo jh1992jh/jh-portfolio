@@ -15,17 +15,17 @@ export const projectData = [
         githubRepo: 'https://github.com/jh1992jh/social-feed-ui'
     },
     {
-        title: 'Piece of Cake',
-        description: 'A fullstack React app with a GraphQL backend. The frontend works with React-Apollo and React. Users are able to register, edit their profiles, post recipes, search recipes and like recipes written by other users',
-        technologies: ['React', 'React-Apollo', 'GraphQL', 'MongoDB', 'Express', 'NodeJS'],
-        desktop: images.pieceofcakeDesktop,
-        mobile1: images.pieceofcakeMobile1,
-        mobile2: images.pieceofcakeMobile2,
-        desktopFP: images.pieceofcakeDesktopFP,
-        mobile1FP: images.pieceofcakeMobile1FP,
-        mobile2FP: images.pieceofcakeMobile2FP,
-        url: 'https://recipe-graph.herokuapp.com/',
-        githubRepo: 'https://github.com/jh1992jh/recipe-graph'
+        title: 'DrAudio',
+        description: 'An App where users can create profiles, edit them, share tracks, listen to tracks and comment tracks. The Front-end is built with React, React-Apollo and styling with Sass utilizing React-Hooks on a big way. The Back-end is a GraphQL backend built with Django and Graphene.',
+        technologies: [ 'React', 'React-apollo','Sass', 'React-Hooks', 'Django', 'GraphQL'],
+        desktop: images.djangoreactaudioDesktop,
+        mobile1: images.djangoreactaudioMobile1,
+        mobile2: images.djangoreactaudioMobile2,
+        desktopFP: images.djangoreactaudioDesktopFP,
+        mobile1FP: images.djangoreactaudioMobile1FP,
+        mobile2FP: images.djangoreactaudioMobile2FP,
+        url: 'https://django-react-audio.herokuapp.com/',
+        githubRepo: 'https://github.com/jh1992jh/django-react-audio'
     },
     {
         title: 'Filtermatic',
@@ -54,16 +54,16 @@ export const projectData = [
         githubRepo: 'https://github.com/jh1992jh/react-landing-page'
     },*/
     {
-        title: 'DrAudio',
-        description: 'An App where users can create profiles, edit them, share tracks, listen to tracks and comment tracks. The Front-end is built with React, React-Apollo and styling with Sass utilizing React-Hooks on a big way. The Back-end is a GraphQL backend built with Django and Graphene.',
-        technologies: [ 'React', 'React-apollo','Sass', 'React-Hooks', 'Django', 'GraphQL'],
-        desktop: images.djangoreactaudioDesktop,
-        mobile1: images.djangoreactaudioMobile1,
-        mobile2: images.djangoreactaudioMobile2,
-        desktopFP: images.djangoreactaudioDesktopFP,
-        mobile1FP: images.djangoreactaudioMobile1FP,
-        mobile2FP: images.djangoreactaudioMobile2FP,
-        url: 'https://django-react-audio.herokuapp.com/',
-        githubRepo: 'https://github.com/jh1992jh/django-react-audio'
+        title: 'Piece of Cake',
+        description: 'A fullstack React app with a GraphQL backend. The frontend works with React-Apollo and React. Users are able to register, edit their profiles, post recipes, search recipes and like recipes written by other users',
+        technologies: ['React', 'React-Apollo', 'GraphQL', 'MongoDB', 'Express', 'NodeJS'],
+        desktop: images.pieceofcakeDesktop,
+        mobile1: images.pieceofcakeMobile1,
+        mobile2: images.pieceofcakeMobile2,
+        desktopFP: images.pieceofcakeDesktopFP,
+        mobile1FP: images.pieceofcakeMobile1FP,
+        mobile2FP: images.pieceofcakeMobile2FP,
+        url: 'https://recipe-graph.herokuapp.com/',
+        githubRepo: 'https://github.com/jh1992jh/recipe-graph'
     },
 ]
