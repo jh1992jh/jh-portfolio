@@ -29,8 +29,8 @@ export const projectData = [
     },
     {
         title: 'Filtermatic',
-        description: 'A photo editing app built on Canvas using React, users can upload their pictures and add stickers, filters, text and paint freely over the picture and after they\'re done, save the edited image to their device.',
-        technologies: ['React', 'Sass', 'JavaScript', 'Figma'],
+        description: 'A photo editing app built on Canvas using React and Redux, users can upload their pictures and add stickers, filters, text and paint freely over the picture and after they\'re done, save the edited image to their device.',
+        technologies: ['React', 'Redux','Sass', 'JavaScript', 'Figma'],
         desktop: images.filtermaticDesktop,
         mobile1: images.filtermaticMobile1,
         mobile2: images.filtermaticMobile2,
@@ -40,7 +40,7 @@ export const projectData = [
         url: 'https://jh1992jh.github.io/filtermatic/',
         githubRepo: 'https://github.com/jh1992jh/filtermatic'
     },
-    {
+    /*{
         title: 'LandingPage',
         description: 'A responsive landing page built with React. I used flexbox to create the layout. Also built the image-carousel component from scratch which is totally reusable with any picture you want and with as many pictures you want',
         technologies: ['React', 'CSS3', 'JavaScript'],
@@ -52,5 +52,18 @@ export const projectData = [
         mobile2FP: images.reactlandingpageMobile2FP,
         url: 'https://jh1992jh.github.io/react-landing-page/',
         githubRepo: 'https://github.com/jh1992jh/react-landing-page'
-    }
+    },*/
+    {
+        title: 'DrAudio',
+        description: 'An App where users can create profiles, edit them, share tracks, listen to tracks and comment tracks. The Front-end is built with React, React-Apollo and styling with Sass utilizing React-Hooks on a big way. The Back-end is a GraphQL backend built with Django and Graphene.',
+        technologies: [ 'React', 'React-apollo','Sass', 'React-Hooks', 'Django', 'GraphQL'],
+        desktop: images.djangoreactaudioDesktop,
+        mobile1: images.djangoreactaudioMobile1,
+        mobile2: images.djangoreactaudioMobile2,
+        desktopFP: images.djangoreactaudioDesktopFP,
+        mobile1FP: images.djangoreactaudioMobile1FP,
+        mobile2FP: images.djangoreactaudioMobile2FP,
+        url: 'https://django-react-audio.herokuapp.com/',
+        githubRepo: 'https://github.com/jh1992jh/django-react-audio'
+    },
 ]

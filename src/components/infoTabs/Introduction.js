@@ -58,7 +58,7 @@ const Introduction = () => (
         <Title>Frontend Developer</Title>
         <Skills>
             <h3>Skills</h3>
-            <p>ReactJS, Redux, NodeJS, JavaScript, Express, MongoDB, Styled-Components, CSS, HTML</p>
+            <p>ReactJS, Redux, NodeJS, JavaScript, Express, MongoDB, Styled-Components, Sass, CSS, HTML</p>
         </Skills>
 
         <CTA>
