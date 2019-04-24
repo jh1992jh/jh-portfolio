@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "3b789164580d26b673faef11f0da8ace",
-    "url": "/jh-portfolio/static/media/reactlandingpage-mobile2.3b789164.webp"
+    "revision": "aeb0f3caba1cc0c1bb6b885d59e49ca6",
+    "url": "/jh-portfolio/static/media/djangoreactaudio-desktop.aeb0f3ca.webp"
   },
   {
-    "revision": "4f63c8bb8d825216de93",
-    "url": "/jh-portfolio/static/css/main.b8b35183.chunk.css"
+    "revision": "2aafb6d276884d34c3c5",
+    "url": "/jh-portfolio/static/css/main.fdaa30d8.chunk.css"
   },
   {
-    "revision": "ac43688d0ffe13a45d93",
-    "url": "/jh-portfolio/static/js/1.ac43688d.chunk.js"
+    "revision": "abfa9c28191119992e53",
+    "url": "/jh-portfolio/static/js/1.abfa9c28.chunk.js"
   },
   {
     "revision": "306e0b3fe919bce7a77a",
@@ -60,8 +60,8 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/reactlandingpage-mobile1.ff5838d2.webp"
   },
   {
-    "revision": "4f63c8bb8d825216de93",
-    "url": "/jh-portfolio/static/js/main.4f63c8bb.chunk.js"
+    "revision": "3b789164580d26b673faef11f0da8ace",
+    "url": "/jh-portfolio/static/media/reactlandingpage-mobile2.3b789164.webp"
   },
   {
     "revision": "07a21e7481ff38894195c174b1c877b8",
@@ -70,6 +70,18 @@ self.__precacheManifest = [
   {
     "revision": "13ad8217f6b2d75584254e0e65ea2b1f",
     "url": "/jh-portfolio/static/media/wq-mobile2.13ad8217.png"
+  },
+  {
+    "revision": "2aafb6d276884d34c3c5",
+    "url": "/jh-portfolio/static/js/main.2aafb6d2.chunk.js"
+  },
+  {
+    "revision": "e6482a8cb1fc3c3fb539b92fe2a25647",
+    "url": "/jh-portfolio/static/media/djangoreactaudio-mobile1.e6482a8c.webp"
+  },
+  {
+    "revision": "5e2749b752ef0d02fa10cc008b93cd1a",
+    "url": "/jh-portfolio/static/media/djangoreactaudio-mobile2.5e2749b7.webp"
   },
   {
     "revision": "900bf3792b10d641328dd4b6b1ce5637",
@@ -120,7 +132,19 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/reactlandingpage-mobile2-fp.98d7bbad.png"
   },
   {
-    "revision": "50a6c7ccb6a254046a470721921005f2",
+    "revision": "94ce4cb4d7a45ac3b60e05120becb852",
+    "url": "/jh-portfolio/static/media/djangoreactaudio-desktop-fp.94ce4cb4.png"
+  },
+  {
+    "revision": "69c3cf36d8740b02bdd6aa8e249e9226",
+    "url": "/jh-portfolio/static/media/djangoreactaudio-mobile1-fp.69c3cf36.png"
+  },
+  {
+    "revision": "ca4411acb3002c7890bdd40a5def5e37",
+    "url": "/jh-portfolio/static/media/djangoreactaudio-mobile2-fp.ca4411ac.png"
+  },
+  {
+    "revision": "240d11de5a6110565dabbe70f2ed9585",
     "url": "/jh-portfolio/index.html"
   }
 ];
