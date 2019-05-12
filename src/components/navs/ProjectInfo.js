@@ -23,7 +23,7 @@ const ProjectInfoTop = styled.div`
     display: flex;
     flex-direction: column;
     flex: 1;
-
+    
     @media (max-width: 1025px) {
         max-height: 10%;
     }
@@ -46,7 +46,8 @@ const ProjectTitles = styled.div`
     margin-top: auto;
     width: 100%;
     display: flex;
-
+    justify-content: space-around;
+    
     @media (max-width: 1025px) {
         margin-top: 1em;
     }
@@ -60,8 +61,10 @@ const ProjectInfoBottom = styled.div`
 const Button = styled.button`
     margin: 4em auto;
     display: block;
-    border: 4px solid #f0f0f0;
+    border: 1px solid #e14eca;
     background: transparent;
+    color: #e14eca;
+    font-weight: 600;
     padding: 1em 2em;
 
     @media (max-width: 1025px) {

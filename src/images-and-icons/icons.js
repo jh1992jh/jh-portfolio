@@ -9,9 +9,11 @@ const NavIconStyled = styled.div`
 `
 
 const Line = styled.div`
+    
     width: ${props => props.width}px;
     height: 4px;
     background: #37ccc9;
+    box-shadow: 1px 1px 2px #e14eca;
     margin: 0.5em 0;
     transform: rotate(${props => props.deg}deg);
     z-index: ${props => props.zIndex};
