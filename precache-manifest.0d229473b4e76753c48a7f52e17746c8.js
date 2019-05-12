@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/djangoreactaudio-desktop.aeb0f3ca.webp"
   },
   {
-    "revision": "49b36f663c72896f45b7",
+    "revision": "fbe5e95380e646899460",
     "url": "/jh-portfolio/static/css/main.fdaa30d8.chunk.css"
   },
   {
@@ -72,8 +72,8 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/wq-mobile2.13ad8217.png"
   },
   {
-    "revision": "49b36f663c72896f45b7",
-    "url": "/jh-portfolio/static/js/main.49b36f66.chunk.js"
+    "revision": "fbe5e95380e646899460",
+    "url": "/jh-portfolio/static/js/main.fbe5e953.chunk.js"
   },
   {
     "revision": "e6482a8cb1fc3c3fb539b92fe2a25647",
@@ -144,7 +144,7 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/djangoreactaudio-mobile2-fp.ca4411ac.png"
   },
   {
-    "revision": "65f0581fcddb0b167d849752afa0779a",
+    "revision": "7c52f5f90a04015cff4d88e1ff93144f",
     "url": "/jh-portfolio/index.html"
   }
 ];
