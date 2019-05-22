@@ -115,7 +115,7 @@ const ProjectInfo = ({ selectedTitle, selectProject, selectedProject, navOpen })
                             <ProjectTitle title="SocialFeed" selectedTitle={selectedTitle} selectProject={selectProject}/>
                             <ProjectTitle title="DrAudio" selectedTitle={selectedTitle} selectProject={selectProject}/>
                             <ProjectTitle title="Filtermatic" selectedTitle={selectedTitle} selectProject={selectProject}/>
-                            <ProjectTitle title="Piece of Cake" selectedTitle={selectedTitle} selectProject={selectProject}/>
+                            <ProjectTitle title="GraphEvent" selectedTitle={selectedTitle} selectProject={selectProject}/>
                         </ProjectTitles>
                     
                 </ProjectInfoTop>
