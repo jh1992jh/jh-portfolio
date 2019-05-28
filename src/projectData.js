@@ -88,7 +88,7 @@ export const projectData = [
   {
     title: "GraphEvent",
     description:
-      "A fullstack React app with a graphQL backend. The Front-end runs with React and the styling and layout is done with Sass. Users can register an account, create events, join events, comment events, edit their profile and more.",
+      "A fullstack React app with a graphQL backend. The Front-end runs with React and the styling and layout is done with Sass. The state management is fully done with React-Hooks e.g. useContext, useReducer, useEffect and useState hooks. Users can register an account, create events, join events, comment events, edit their profile and more.",
     technologies: ["React", "Sass", "GraphQL", "NodeJS", "Express", "MongoDB"],
     desktop: images.grapheventDesktop,
     mobile1: images.grapheventMobile1,
