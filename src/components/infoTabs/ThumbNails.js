@@ -90,6 +90,7 @@ const ThumbNails = () => {
     <ThumbNailsStyled>
       <ProjectThumbnail
         src={projectData[firstThumbNailIndex].desktop}
+        srcSet={projectData[firstThumbNailIndex].desktopFP}
         top="25"
         left="0"
         zindex="0"
@@ -99,6 +100,7 @@ const ThumbNails = () => {
 
       <ProjectThumbnail
         src={projectData[secondThumbNailIndex].desktop}
+        srcSet={projectData[secondThumbNailIndex].desktopFP}
         top="33"
         left="5"
         style={topPicProps}

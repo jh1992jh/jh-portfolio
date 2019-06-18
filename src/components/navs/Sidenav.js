@@ -2,7 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Projects from "./Projects";
 import NavIcon from "../../images-and-icons/icons";
-import { useTransition, animated } from "react-spring";
+import { useTransition, animated, config } from "react-spring";
 
 const SidenavWrapper = styled.div`
   display: flex;
@@ -51,11 +51,11 @@ const ToggleNav = styled.div`
 
 const Sidenav = ({ navOpen, setNavOpen }) => {
   const transitions = useTransition(navOpen, null, {
-    initial: { width: "50%", opacity: 0 },
+    initial: { width: "0%", opacity: 0 },
     enter: { width: "100%", opacity: 1 },
-    leave: { width: "50%", opacity: 0 },
+    leave: { width: "0%", opacity: 0 },
     reset: false,
-    duration: 1000
+    config: config.stiff
   });
   return (
     <SidenavWrapper>

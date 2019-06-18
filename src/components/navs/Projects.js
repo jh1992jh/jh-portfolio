@@ -1,10 +1,11 @@
 import React, { useState } from "react";
+import { useSpring, animated, config } from "react-spring";
 import styled from "styled-components";
 import ProjectInfo from "./ProjectInfo";
 import ProjectShowcase from "./ProjectShowcase";
 import { projectData } from "../../projectData";
 
-const ProjectsStyled = styled.div`
+const ProjectsStyled = styled(animated.div)`
   display: flex;
   flex-wrap: wrap;
   width: 100%;
@@ -31,8 +32,14 @@ const Projects = () => {
     setResetAnim(true);
   };
 
+  const ProjectsAnim = useSpring({
+    from: { width: "0%", height: "100vh", opacity: 0 },
+    to: { width: "100%", height: "100vh", opacity: 1 },
+    config: config.stiff
+  });
+
   return (
-    <ProjectsStyled>
+    <ProjectsStyled style={ProjectsAnim}>
       <ProjectInfo
         selectedTitle={selectedTitle}
         selectProject={selectProject}
