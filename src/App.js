@@ -1,9 +1,8 @@
-import React, { Component, Fragment } from 'react';
-import styled from 'styled-components';
-import Sidenav from './components/navs/Sidenav';
-import MobileNav from './components/navs/MobileNav';
-import InfoTabs from './components/infoTabs/InfoTabs';
-import Loading from './components/loading/Loading';
+import React, { useState } from "react";
+import styled from "styled-components";
+import Sidenav from "./components/navs/Sidenav";
+import MobileNav from "./components/navs/MobileNav";
+import InfoTabs from "./components/infoTabs/InfoTabs";
 
 // import JSFacts from './JSFacts';
 
@@ -11,59 +10,35 @@ const AppStyled = styled.div`
   height: 100vh;
   display: flex;
   justify-content: flex-start;
-`
+`;
 
 const ForMobile = styled.div`
   @media (min-width: 1025px) {
     display: none;
   }
-`
+`;
 
 const ForDesktop = styled.div`
   @media (max-width: 1025px) {
     display: none;
   }
-`
+`;
 
-class App extends Component {
-  state = {
-    navOpen: false,
-    loading: true
-}
+const App = () => {
+  const [navOpen, setNavOpen] = useState(false);
 
-componentDidMount() {
-  this.timeout = setTimeout(() => this.setState({loading: false}),1100)
-}
+  return (
+    <AppStyled>
+      <ForMobile>
+        <MobileNav navOpen={navOpen} setNavOpen={setNavOpen} />
+      </ForMobile>
 
-componentWillUnmount() {
-  clearTimeout(this.timeout)
-}
-toggleNav = () => {
-    const { navOpen } = this.state;
-    
-    this.setState({navOpen: !navOpen})
-} 
-  render() {
-    const { navOpen, loading } = this.state;
-    return (
-      <AppStyled>
-      {loading ? (
-        <Loading />
-      ) : (
-        <Fragment>
-          <ForMobile>
-          <MobileNav navOpen={navOpen} toggleNav={this.toggleNav}/>
-        </ForMobile>
-        
-        <ForDesktop>
-          <Sidenav  navOpen={navOpen} toggleNav={this.toggleNav} />      
-        </ForDesktop>
-        {!navOpen && <InfoTabs />}
-      </Fragment>
-      )}
-      </AppStyled>
-    );
-  }
-}
+      <ForDesktop>
+        <Sidenav navOpen={navOpen} setNavOpen={setNavOpen} />
+      </ForDesktop>
+      {!navOpen && <InfoTabs />}
+    </AppStyled>
+  );
+};
 
 export default App;

@@ -1,6 +1,6 @@
 import React, { Fragment } from 'react';
 import styled from 'styled-components';
-import { Spring } from 'react-spring';
+import { Spring } from 'react-spring/renderprops';
 
 const LoadingStyled = styled.div`
     height: 100vh;
