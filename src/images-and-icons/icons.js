@@ -6,6 +6,7 @@ const NavIconStyled = styled.div`
   width: 50px;
   height: 50px;
   position: fixed;
+  cursor: pointer;
 `;
 
 const Line = styled.div`
