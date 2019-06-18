@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/graphevent-mobile1.2bc79c01.webp"
   },
   {
-    "revision": "27f2ce240593545cd94b",
+    "revision": "c829e1efcc2111818c16",
     "url": "/jh-portfolio/static/css/main.b8d78d21.chunk.css"
   },
   {
@@ -80,8 +80,8 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/graphevent-desktop.26628b08.webp"
   },
   {
-    "revision": "27f2ce240593545cd94b",
-    "url": "/jh-portfolio/static/js/main.27f2ce24.chunk.js"
+    "revision": "c829e1efcc2111818c16",
+    "url": "/jh-portfolio/static/js/main.c829e1ef.chunk.js"
   },
   {
     "revision": "27300ccddbf0131d29f1c3abc6a81e9a",
@@ -160,7 +160,7 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/graphevent-mobile2-fp.aefc5957.png"
   },
   {
-    "revision": "96f01739c14bf46afc6fc3a4d33b6647",
+    "revision": "593df0827d091517bbb8e8d77f131434",
     "url": "/jh-portfolio/index.html"
   }
 ];
