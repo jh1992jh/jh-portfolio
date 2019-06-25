@@ -6,6 +6,7 @@ import { icons } from "../../images-and-icons";
 import ThumbNails from "./ThumbNails";
 
 const Battery = styled.img`
+  margin: 0 1.5em;
   @media (max-width: 1025px) {
     max-height: 30px;
     width: auto;
@@ -65,9 +66,10 @@ const ForDesktop = styled.div`
 const TopBar = styled.div`
   position: fixed;
   top: 0;
-  right: 0.5em;
+  right: 1.5em;
   display: flex;
   align-items: center;
+  justify-content: space-around;
 
   @media (max-width: 1025px) {
     top: 0.5em;

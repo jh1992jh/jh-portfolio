@@ -36,9 +36,12 @@ const Skills = styled.div`
   }
 
   p {
-    color: #888;
+    color: #222;
+    font-weight: 600;
   }
 `;
+
+// Try color: #222; to Skills p tag
 
 const Padding = styled.div`
   @media (max-width: 1025px) {
@@ -47,7 +50,7 @@ const Padding = styled.div`
 `;
 
 const CTA = styled.h4`
-  color: #888;
+  color: #37ccc9;
 `;
 const Introduction = () => (
   <IntroductionStyled>

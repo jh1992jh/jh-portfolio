@@ -63,7 +63,6 @@ const ThumbNails = () => {
     //secondThumbNailIndex <= 1 && setSecondThumbNailIndex(3);
     setFirstThumbNailIndex(firstThumbNailIndex - 1);
     setSecondThumbNailIndex(secondThumbNailIndex - 1);
-    console.log(firstThumbNailIndex);
   }, 3000);
 
   const topPicProps = useSpring({
