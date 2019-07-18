@@ -44,6 +44,21 @@ export const projectData = [
     githubRepo: "https://github.com/jh1992jh/django-react-audio"
   },
   {
+    title: "Filtermatic_TS",
+    description:
+      "A photo editing app built with Vanilla TypeScript were users can add filters, stickers, text and paint to the picture with any color they like. And after they're done editing they can save the edited image to their device.",
+    technologies: ["TypeScript", "Sass", "HTML5", "CanvasAPI"],
+    desktop: images.filtermatictsDesktop,
+    mobile1: null,
+    mobile2: null,
+    desktopFP: images.filtermatictsDesktopFP,
+    mobile1FP: null,
+    mobile2FP: null,
+    url: "https://modest-franklin-6cbcbf.netlify.com/",
+    githubRepo: "https://github.com/jh1992jh/Filtermatic_ts"
+  },
+  /*
+  {
     title: "Filtermatic",
     description:
       "A photo editing app built on Canvas using React and Redux, users can upload their pictures and add stickers, filters, text and paint freely over the picture and after they're done, save the edited image to their device.",
@@ -56,7 +71,7 @@ export const projectData = [
     mobile2FP: images.filtermaticMobile2FP,
     url: "https://jh1992jh.github.io/filtermatic/",
     githubRepo: "https://github.com/jh1992jh/filtermatic"
-  },
+  },*/
   /*{
         title: 'LandingPage',
         description: 'A responsive landing page built with React. I used flexbox to create the layout. Also built the image-carousel component from scratch which is totally reusable with any picture you want and with as many pictures you want',

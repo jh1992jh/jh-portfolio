@@ -4,6 +4,7 @@ import socialfeedMobile2 from "./images/socialfeed-mobile2.webp";
 import filtermaticDesktop from "./images/filtermatic-desktop.webp";
 import filtermaticMobile1 from "./images/filtermatic-mobile1.webp";
 import filtermaticMobile2 from "./images/filtermatic-mobile2.webp";
+import filtermatictsDesktop from "./images/filtermaticts-desktop.webp";
 import pieceofcakeDesktop from "./images/pieceofcake-desktop.webp";
 import pieceofcakeMobile1 from "./images/pieceofcake-mobile1.webp";
 import pieceofcakeMobile2 from "./images/pieceofcake-mobile2.webp";
@@ -27,6 +28,7 @@ import pieceofcakeMobile2FP from "./images/pieceofcake-mobile2-fp.png";
 import filtermaticDesktopFP from "./images/filtermatic-desktop-fp.png";
 import filtermaticMobile1FP from "./images/filtermatic-mobile1-fp.png";
 import filtermaticMobile2FP from "./images/filtermatic-mobile2-fp.png";
+import filtermatictsDesktopFP from "./images/filtermaticts-desktop.png";
 import reactlandingpageDesktopFP from "./images/reactlandingpage-desktop-fp.png";
 import reactlandingpageMobile1FP from "./images/reactlandingpage-mobile1-fp.png";
 import reactlandingpageMobile2FP from "./images/reactlandingpage-mobile2-fp.png";
@@ -45,6 +47,7 @@ export const images = {
   socialfeedMobile1,
   socialfeedMobile2,
   filtermaticDesktop,
+  filtermatictsDesktop,
   filtermaticMobile1,
   filtermaticMobile2,
   pieceofcakeDesktop,
@@ -67,6 +70,7 @@ export const images = {
   pieceofcakeMobile1FP,
   pieceofcakeMobile2FP,
   filtermaticDesktopFP,
+  filtermatictsDesktopFP,
   filtermaticMobile1FP,
   filtermaticMobile2FP,
   reactlandingpageDesktopFP,

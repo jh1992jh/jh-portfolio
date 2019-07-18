@@ -129,7 +129,7 @@ const ProjectInfo = ({
                 selectProject={selectProject}
               />
               <ProjectTitle
-                title="Filtermatic"
+                title="Filtermatic_TS"
                 selectedTitle={selectedTitle}
                 selectProject={selectProject}
               />

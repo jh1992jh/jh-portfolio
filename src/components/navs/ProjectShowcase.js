@@ -44,6 +44,16 @@ const DesktopImg = styled.img`
   }
 `;
 
+const OnlyDesktopImg = styled.img`
+  height: auto;
+  width: 100%;
+  @media (max-width: 1025px) {
+    width: 100vw;
+
+    height: auto;
+  }
+`;
+
 const MobileImg = styled.img`
   max-height: 50%;
   width: auto;
@@ -54,40 +64,59 @@ const MobileImg = styled.img`
   }
 `;
 
-const ProjectShowcase = ({ selectedProject, resetAnim }) => (
-  <ProjectShowcaseStyled>
-    <ProjectImagesWrapper>
-      <Spring
-        from={{ opacity: 0 }}
-        to={{ opacity: 1 }}
-        reset={resetAnim}
-        config={{ duration: 500 }}
-      >
-        {props => (
-          <Fragment>
-            <DesktopImg
-              style={props}
-              src={selectedProject.desktop}
-              srcSet={selectedProject.desktopFP}
-              alt="Project on desktop"
-            />
-            <MobileImg
-              style={props}
-              src={selectedProject.mobile1}
-              srcSet={selectedProject.mobile1FP}
-              alt="Project on mobile"
-            />
-            <MobileImg
-              style={props}
-              src={selectedProject.mobile2}
-              srcSet={selectedProject.mobile2FP}
-              alt="Project on mobile"
-            />
-          </Fragment>
-        )}
-      </Spring>
-    </ProjectImagesWrapper>
-  </ProjectShowcaseStyled>
-);
+const ProjectShowcase = ({ selectedProject, resetAnim }) => {
+  const {
+    desktop,
+    desktopFP,
+    mobile1,
+    mobile1FP,
+    mobile2,
+    mobile2FP
+  } = selectedProject;
+  return (
+    <ProjectShowcaseStyled>
+      <ProjectImagesWrapper>
+        <Spring
+          from={{ opacity: 0 }}
+          to={{ opacity: 1 }}
+          reset={resetAnim}
+          config={{ duration: 500 }}
+        >
+          {props =>
+            desktop && mobile1 && mobile2 ? (
+              <Fragment>
+                <DesktopImg
+                  style={props}
+                  src={desktop}
+                  srcSet={desktopFP}
+                  alt="Project on desktop"
+                />
+                <MobileImg
+                  style={props}
+                  src={mobile1}
+                  srcSet={mobile1FP}
+                  alt="Project on mobile"
+                />
+                <MobileImg
+                  style={props}
+                  src={mobile2}
+                  srcSet={mobile2FP}
+                  alt="Project on mobile"
+                />
+              </Fragment>
+            ) : (
+              <OnlyDesktopImg
+                style={props}
+                src={desktop}
+                srcSet={desktopFP}
+                alt="Project on desktop"
+              />
+            )
+          }
+        </Spring>
+      </ProjectImagesWrapper>
+    </ProjectShowcaseStyled>
+  );
+};
 
 export default ProjectShowcase;
