@@ -4,12 +4,12 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/graphevent-mobile1.2bc79c01.webp"
   },
   {
-    "revision": "8ec899a531bf31c815ed",
-    "url": "/jh-portfolio/static/css/main.b8d78d21.chunk.css"
+    "revision": "c87ef9e6d59b83ce149c",
+    "url": "/jh-portfolio/static/css/main.b3dd15ac.chunk.css"
   },
   {
-    "revision": "e694b618e6e5e4d4daf2",
-    "url": "/jh-portfolio/static/js/1.e694b618.chunk.js"
+    "revision": "b57e0fbaab700eab0b08",
+    "url": "/jh-portfolio/static/js/1.b57e0fba.chunk.js"
   },
   {
     "revision": "306e0b3fe919bce7a77a",
@@ -38,6 +38,10 @@ self.__precacheManifest = [
   {
     "revision": "3921ee290c82302f3065114189636e4f",
     "url": "/jh-portfolio/static/media/filtermatic-mobile2.3921ee29.webp"
+  },
+  {
+    "revision": "11fa841cc34d1e3d03c2fa9d48143015",
+    "url": "/jh-portfolio/static/media/filtermaticts-desktop.11fa841c.webp"
   },
   {
     "revision": "cf60c5e2972100783c221b3ea909e624",
@@ -80,8 +84,8 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/graphevent-desktop.26628b08.webp"
   },
   {
-    "revision": "8ec899a531bf31c815ed",
-    "url": "/jh-portfolio/static/js/main.8ec899a5.chunk.js"
+    "revision": "c87ef9e6d59b83ce149c",
+    "url": "/jh-portfolio/static/js/main.c87ef9e6.chunk.js"
   },
   {
     "revision": "27300ccddbf0131d29f1c3abc6a81e9a",
@@ -124,6 +128,10 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/filtermatic-mobile2-fp.fcd9e294.png"
   },
   {
+    "revision": "d7b72a4a032c8b1a1ced43dc84077603",
+    "url": "/jh-portfolio/static/media/filtermaticts-desktop.d7b72a4a.png"
+  },
+  {
     "revision": "56290ca6545306ff06ba6366d6483bdf",
     "url": "/jh-portfolio/static/media/reactlandingpage-desktop-fp.56290ca6.png"
   },
@@ -160,7 +168,7 @@ self.__precacheManifest = [
     "url": "/jh-portfolio/static/media/graphevent-mobile2-fp.aefc5957.png"
   },
   {
-    "revision": "7a940e4475d0977d2e9622564bc1c8ae",
+    "revision": "4d0f390f53a13902895e4a4acc85f806",
     "url": "/jh-portfolio/index.html"
   }
 ];
