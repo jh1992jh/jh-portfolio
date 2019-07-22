@@ -61,7 +61,7 @@ const Introduction = () => (
       <Skills>
         <h3>Skills</h3>
         <p>
-          ReactJS, Redux, NodeJS, JavaScript, Express, GraphQL, MongoDB,
+          ReactJS, Redux, NodeJS, JavaScript, TypeScript, Express, GraphQL, MongoDB,
           Styled-Components, Sass, CSS, HTML
         </p>
       </Skills>
